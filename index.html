@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Italiana</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="container-logo">
+                <img src="./images/logo_restaurante.png" alt="Logo Italia">
+                <h1>Casa Italiana</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#reservations">Reservas</a></li>
+                    <li><a href="#about-container">Sobre nós</a></li>
+                    <li><a href="#contact">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <h2>Bem vindo a Casa Italiana</h2>
+        <p>Experiencie o melhor restaurante da cidade</p>
+    </section>
+
+    <section id="menu">
+        <h2>Nosso Menu</h2>
+            <div class="menu-category">
+                <div>
+                    <button>Entradas</button>
+                </div>
+                <div>
+                    <button>Pratos Principais</button>
+                </div>
+                <div>
+                    <button>Sobremesas</button>
+                </div>
+                <div>
+                    <button>Bebidas</button>
+                </div>
+        </div>
+    </section>
+
+    <section id="reservations">
+        <h2>Reserve uma mesa</h2>
+        <div class="container">
+            <div id="about-container">
+                <h3>Sobre nós</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit laborum ratione perspiciatis blanditiis, est nisi reprehenderit facere in mollitia adipisci rem nihil earum quos repellendus! Eveniet sint veniam expedita numquam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis vitae consequuntur officiis aliquam sequi quod quisquam facere voluptatem omnis! Assumenda, voluptates. Ipsam iste iusto quaerat eveniet, exercitationem nobis repellat modi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. At mollitia neque esse pariatur quae saepe quia est sunt ea. Maiores unde et nostrum, aut doloremque totam corrupti repellendus reprehenderit eum?</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit laborum ratione perspiciatis blanditiis, est nisi reprehenderit facere in mollitia adipisci rem nihil earum quos repellendus! Eveniet sint veniam expedita numquam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis vitae consequuntur officiis aliquam sequi quod quisquam facere voluptatem omnis! Assumenda, voluptates. Ipsam iste iusto quaerat eveniet, exercitationem nobis repellat modi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. At mollitia neque esse pariatur quae saepe quia est sunt ea. Maiores unde et nostrum, aut doloremque totam corrupti repellendus reprehenderit eum Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam iste tempora aspernatur quidem, accusantium provident non consequatur vel! Magni ab ratione perspiciatis tenetur est autem, optio ullam cum perferendis eum?</p>
+            </div>
+            <div id="form-container">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group-time">
+                        <div>
+                            <label for="date">Data:</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div>
+                            <label for="time">Hora:</label>
+                            <input type="time" id="time" name="time" required>
+                        </div>
+                        <div>
+                            <label for="guests">Número de convidados:</label>
+                            <input type="number" id="guests" name="guests" min="1" max="8" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="requests">Solicitação especial:</label>
+                        <textarea id="requests" name="requests" placeholder="Opcional"></textarea>
+                    </div>
+                    <button type="submit">Reservar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <section id="contact">
+            <div>
+                <div>
+                    <a href="#"><img src="./images/facebook.png" alt="facebook"></a>
+                    <a href="#"><img src="./images/youtube.png" alt="youtube"></a>
+                    <a href="#"><img src="./images/instagram.png" alt="instagram"></a>
+                </div>
+                <div>
+                    <p>endereço:
+                        <br>
+                        Rua das amomereiras n°1234 Londrina - PR
+                    </p>
+                </div>
+                <div>
+                    <p>Aberto todos os dias das:
+                        <br>
+                        17:30 as 0:00
+                    </p>
+                </div>
+                <div>
+                    telefone:
+                    <br>
+                    (88)8888-8888
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
